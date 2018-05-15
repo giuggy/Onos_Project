@@ -1,0 +1,23 @@
+{
+  "devices": {
+    "of:0000000000000001": { "basic": { "name": "MTU_BER", "latitude": 52.5200, "longitude": 13.4050  }},
+    "of:000000000000000a": { "basic": { "name": "PCI_PAR", "latitude": 48.8566101, "longitude": 2.3514992  }},
+    "of:000000000000000b": { "basic": { "name": "PCI_BRN", "latitude": 46.570866, "longitude": 7.26225  }},
+    "of:000000000000000c": { "basic": { "name": "PCI_VIE", "latitude": 48.2083537, "longitude": 15.3725042  }}
+  },
+  "hosts": {
+    "00:00:00:00:00:01/-1": { "basic": { "locations": ["of:0000000000000001/4"], "ips": [ "10.0.0.1" ],  "name": "HMI_BRU", "latitude": 50.8465565, "longitude": 4.351697 }},
+    "00:00:00:00:00:02/-1": { "basic": { "locations": ["of:0000000000000001/5"], "ips": [ "10.0.0.2" ],  "name": "HMI_RTT", "latitude": 51.9244, "longitude": 4.4777  }},
+    "00:00:00:00:00:03/-1": { "basic": { "locations": ["of:0000000000000001/6"], "ips": [ "10.0.0.3" ],  "name": "HMI_AMS", "latitude": 52.374436,  "longitude": 4.8979956033677 }},
+    "00:00:00:00:00:04/-1": { "basic": { "locations": ["of:000000000000000a/2"], "ips": [ "10.0.0.4" ],  "name": "RTU_NAN", "latitude": 47.2184, "longitude": 1.5536  }},
+    "00:00:00:00:00:06/-1": { "basic": { "locations": ["of:000000000000000a/3"], "ips": [ "10.0.0.5" ],  "name": "RTU_TOU", "latitude": 43.6047, "longitude": 1.4442  }},
+    "00:00:00:00:00:05/-1": { "basic": { "locations": ["of:000000000000000a/4"], "ips": [ "10.0.0.6" ],  "name": "RTU_LYO", "latitude": 45.7640, "longitude": 4.8357  }},
+    "00:00:00:00:00:07/-1": { "basic": { "locations": ["of:000000000000000b/2"], "ips": [ "10.0.0.7" ],  "name": "RTU_TUR", "latitude": 45.0703, "longitude": 7.6869  }},
+    "00:00:00:00:00:09/-1": { "basic": { "locations": ["of:000000000000000b/3"], "ips": [ "10.0.0.8" ],  "name": "RTU_ROM", "latitude": 41.9028, "longitude": 12.4964  }},
+    "00:00:00:00:00:08/-1": { "basic": { "locations": ["of:000000000000000b/4"], "ips": [ "10.0.0.9" ],  "name": "RTU_VER", "latitude": 45.4384, "longitude": 10.9916  }},
+    "00:00:00:00:00:0a/-1": { "basic": { "locations": ["of:000000000000000c/2"], "ips": [ "10.0.0.10" ], "name": "RTU_LJU", "latitude": 46.0569, "longitude": 14.5058  }},
+    "00:00:00:00:00:0b/-1": { "basic": { "locations": ["of:000000000000000c/3"], "ips": [ "10.0.0.11" ], "name": "RTU_ZAG", "latitude": 45.8131545, "longitude": 15.9770298  }},
+    "00:00:00:00:00:0c/-1": { "basic": { "locations": ["of:000000000000000c/4"], "ips": [ "10.0.0.12" ], "name": "RTU_BEL", "latitude": 44.7866, "longitude": 20.4489  }}
+  }
+
+}
