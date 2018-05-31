@@ -1,0 +1,8 @@
+org/foo/app/portStatsReaderTask.class
+org/foo/app/AppUiMessageHandler.class
+org/foo/app/portStatsReaderTask$Task.class
+org/foo/app/AppComponent.class
+org/foo/app/AppUiMessageHandler$SampleCustomDataRequestHandler.class
+org/foo/app/AppUiComponent.class
+org/foo/app/AppCommand.class
+org/foo/app/AppUiMessageHandler$1.class
